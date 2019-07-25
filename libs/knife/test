@@ -1,0 +1,9 @@
+#! /bin/bash
+
+echo "
+=== Running tests ===
+"
+lua5.1 -lluacov ./knife/test.lua ./spec/*
+luacov
+rm luacov.stats.out
+sed -e '1,/^Summary$/d' < luacov.report.out

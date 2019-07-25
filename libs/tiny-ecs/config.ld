@@ -1,0 +1,13 @@
+file = "tiny.lua"
+project = "tiny-ecs"
+description = "Entity Component System for lua."
+backtick_references = true
+format = 'discount'
+title = "tiny-ecs API"
+one = true
+dir = "doc"
+style = '!fixed'
+package = 'tiny-ecs'
+not_luadoc = true
+boilerplate = true
+no_return_or_parms = true
